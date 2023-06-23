@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerMarket</title>
+</head>
+
+<body>
+    <main>
+        <h1>
+            <img src="./assets/img-logo.png" alt="BurgerMarket" />
+        </h1>
+
+        <section>
+            <h2>메뉴 선택 자판기</h2>
+            <ul>
+                <li>
+                    <img src="./assets/img-menu-shrimp-burger.png" alt="" />
+                    <strong>새우버거</strong>
+                    <button type="button" aria-label="새우버거">5,500원</button>
+                </li>
+                <li>
+                    <img src="./assets/img-menu-chicken-burger.png" alt="" />
+                    <strong>치킨버거</strong>
+                    <button type="button" aria-label="치킨버거">4,300원</button>
+                </li>
+                <li>
+                    <img src="./assets/img-menu-doublepatty-burger.png" alt="" />
+                    <strong>더블패티버거</strong>
+                    <button type="button" aria-label="더블패티버거">5,300원</button>
+                </li>
+                <li>
+                    <img src="./assets/img-menu-cheese-burger.png" alt="" />
+                    <strong>치즈버거</strong>
+                    <button type="button" aria-label="치즈버거">3,300원</button>
+                </li>
+                <li>
+                    <img src="./assets/img-menu-french-fries.png" alt="" />
+                    <strong>감자튀김</strong>
+                    <button type="button" aria-label="감자튀김">2,600원</button>
+                </li>
+                <li>
+                    <img src="./assets/img-menu-drink.png" alt="" />
+                    <strong>콜라</strong>
+                    <button type="button" aria-label="콜라">2,200원</button>
+                </li>
+            </ul>
+            <div>
+                잔액 :
+                <span>1,000원</span>
+            </div>
+            <button type="button" aria-label="거스름돈 반환">거스름돈 반환</button>
+            <form action="#" method="POST">
+                <label for="inpPut">입금할 금액을 입력해주세요.</label>
+                <input type="number" id="inpPut" placeholder="입금액 입력" />
+                <button type="submit" aria-label="입금">입금</button>
+            </form>
+            <section>
+                <h3>선택 목록</h3>
+                <ul>
+                    <li>
+                        <button type="button" aria-label="">
+                            <img src="./assets/img-menu-doublepatty-burger.png" alt="" />
+                            <strong>더블패티버거</strong>
+                            <span>2</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" aria-label="">
+                            <img src="./assets/img-menu-doublepatty-burger.png" alt="" />
+                            <strong>더블패티버거</strong>
+                            <span>2</span>
+                        </button>
+                    </li>
+                </ul>
+                <button type="button" aria-label="주문하기">주문하기</button>
+            </section>
+        </section>
+
+        <section>
+            <h2>내 정보</h2>
+            <section>
+                <h3>내 지갑</h3>
+                <strong>225,000원</strong>
+                <button type="button" aria-label="충전하기">충전하기</button>
+            </section>
+
+            <section>
+                <h3>결제 내역</h3>
+                <ul>
+                    <li>
+                        <button type="button" aria-label="">
+                            <img src="./assets/img-menu-doublepatty-burger.png" alt="" />
+                            <strong>더블패티버거</strong>
+                            <span>2</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" aria-label="">
+                            <img src="./assets/img-menu-doublepatty-burger.png" alt="" />
+                            <strong>더블패티버거</strong>
+                            <span>2</span>
+                        </button>
+                    </li>
+                </ul>
+                <strong>총 소비금액: 0원</strong>
+            </section>
+        </section>
+    </main>
+    <footer>© 2023. SEUNGMI</footer>
+</body>
+
+</html>
